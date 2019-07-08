@@ -38,6 +38,7 @@ namespace PluginsXamarinsForms
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<ListaPluginsPage, ListaPluginsViewModel>();
+            containerRegistry.RegisterForNavigation<BottomSheetPage, BottomSheetViewModel>();
         }
     }
 }
